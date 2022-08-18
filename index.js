@@ -6,10 +6,13 @@ const dbName = "jornada-fullstack-agosto-22";
 
 async function main(){
 
-  const client = await MongoClient.connect(url);
-  const db = client.db(dbName);
-  const collection = db.collection("pontuacoes");
 
+  console.log("Conectando com o banco de dados...")
+  // const client = await MongoClient.connect(url);
+  // const db = client.db(dbName);
+  // const collection = db.collection("pontuacoes");
+
+  console.log("Banco de dados conectado com sucesso")
   const app = express();
 
   app.use(express.json());
