@@ -12,6 +12,8 @@ async function main(){
   // const db = client.db(dbName);
   // const collection = db.collection("pontuacoes");
 
+  
+
   console.log("Banco de dados conectado com sucesso")
   const app = express();
 
